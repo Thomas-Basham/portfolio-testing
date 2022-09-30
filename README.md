@@ -1,6 +1,8 @@
 
 # Portfolio Testing
 
+[![Python application](https://github.com/Thomas-Basham/portfolio-testing/actions/workflows/python-app.yml/badge.svg)](https://github.com/Thomas-Basham/portfolio-testing/actions/workflows/python-app.yml)
+
 ## Integration Tests for my portfolio website and other web application projects I've had the honor to work on
 
 ### Installation
