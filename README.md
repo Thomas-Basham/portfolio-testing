@@ -1,7 +1,7 @@
 
 # Portfolio Testing
 
-## Integration My portfolio website and projects I've had the honor to work on
+## Integration Tests for my portfolio website and other web application projects I've had the honor to work on
 
 ### Installation
 
