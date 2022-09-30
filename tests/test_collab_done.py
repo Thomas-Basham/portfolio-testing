@@ -5,12 +5,6 @@ url = "https://collab-done.vercel.app/"
 login_url = "https://collab-done.vercel.app/login"
 
 
-def test_home(page):
-    page.goto(url)
-
-    assert page.title() == "Collab Done"
-
-
 def test_home_page_values(logged_in_page):
     assert logged_in_page.inner_text("a") == "COLLAB DONE"
 

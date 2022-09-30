@@ -3,6 +3,8 @@ import pytest
 
 home_url = "https://smells-like-devs-cooking-frontend-rho.vercel.app/"
 login_url = "https://smells-like-devs-cooking-frontend-rho.vercel.app/loginpage"
+
+
 def test_home(page):
     page.goto(home_url)
 
