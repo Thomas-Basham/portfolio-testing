@@ -3,7 +3,7 @@
 
 [![Python application](https://github.com/Thomas-Basham/portfolio-testing/actions/workflows/python-app.yml/badge.svg)](https://github.com/Thomas-Basham/portfolio-testing/actions/workflows/python-app.yml)
 
-## Integration Tests for my portfolio website and other web application projects I've had the honor to work on
+## Integration Tests for my portfolio website and other web applications
 
 ### Installation
 
@@ -15,7 +15,7 @@ playwright install
 pip install pytest-playwright
 ```
 
-- Modify tests for your application
+- Modify tests for your application or run the tests I wrote
 - Run tests by entering:
   - `pytest`
   - or `pytest --headed --slowmo 500` to be extra fancy.
