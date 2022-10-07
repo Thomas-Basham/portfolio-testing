@@ -22,17 +22,6 @@ def test_home_page_navigation(logged_in_page):
     assert url == "/create"
 
 
-@pytest.mark.skip("TODO")
-def test_detail_page(logged_in_page):
-    anchor = logged_in_page.locator("div div a").first
-    url = anchor.get_attribute("href")
-    blog_post_name = anchor.text_content()
-    anchor.click()
-
-    assert logged_in_page.url.endswith(url)
-    assert blog_post_name in logged_in_page.inner_text("body")
-
-
 @pytest.fixture
 def logged_in_page(page):
     page.goto(login_url)
